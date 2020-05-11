@@ -1,8 +1,10 @@
-# Steam Viewers
+# Steam Viewbot
 
 There are many iterations of this code, I *think* this is the latest one. I forgot it even existed but since one of the old ones has been leaked I might as well release this.
 
 Over all iterations we maybe used it like ten times back in early 2019.
+
+On official servers these viewers push your Matchmaking game (Valve Competitive 5v5 only) to the top of the GOTV watch list. You can also boost other peoples matches by simply joining their GOTV server. Overall it takes 2-3 minutes for the viewers to first show up. Expect this to get fixed soon.
 
 # Requirements
 
