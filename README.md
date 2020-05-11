@@ -26,7 +26,7 @@ To be able to broadcast you **MUST** be a [non-limited user](https://support.ste
 
 # How does it work?
 
-This version sends an HTTP request to Steam for wanting to watch a Steam Broadcast, this creates a new viewer and gives you some tokens. Viewers expire if you don't need a heatbeat after ~90 seconds (If I remember correctly), so we use a Steam connection and protobufs to send keep alives for all of our viewers. From testing this seems to max out at ~30K (Again, if I remember correctly) which doesn't really make sense according to math but whatever, bad code I guess.
+This version sends an HTTP request to Steam for wanting to watch a Steam Broadcast, this creates a new viewer and gives you some tokens. Viewers expire if you don't send a heatbeat after ~90 seconds (If I remember correctly), so we use a Steam connection and protobufs to send keep alives for all of our viewers. From testing this seems to max out at ~30K (Again, if I remember correctly) which doesn't really make sense according to math but whatever, bad code I guess.
 
 The Steam connection is an anonymous Steam logon, we use Steam because sending keep alives through that is MUCH faster and more efficent than creating an entirely new HTTP request (Thank you protobufs).
 
