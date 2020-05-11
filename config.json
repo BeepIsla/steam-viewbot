@@ -1,0 +1,16 @@
+{
+	"target": "76561197960287930",
+	"heartbeatInterval": 30000,
+	"maxViewers": 20000,
+	"workers": 5,
+	"delayBetweenWorkerRequest": 500,
+	"maxRequestsInFlightPerWorker": 1,
+	"proxy": {
+		"enabled": false,
+		"maxErrors": 5,
+		"files": [
+			"proxies/proxy.txt",
+			"http://someproxysite.com/"
+		]
+	}
+}
