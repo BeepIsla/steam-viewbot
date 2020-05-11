@@ -6,6 +6,10 @@ Over all iterations we maybe used it like ten times back in early 2019.
 
 On official servers these viewers push your Matchmaking game (Valve Competitive 5v5 only) to the top of the GOTV watch list. You can also boost other peoples matches by simply joining their GOTV server. Overall it takes 2-3 minutes for the viewers to first show up. Expect this to get fixed soon.
 
+# Can I get banned?
+
+Maybe. Valve will probably community ban you or even disable your account if they catch you use it. Though a friend has been playing around and getting to very high numbers (100K+) without getting banned or anything, though now that its public this might change. As always: **I am not responsible for any bans of any kind. Use at your own risk.**
+
 # Requirements
 
 Your target **MUST** be broadcasting on Steam publicly. There are two methods of broadcasting on Steam:
